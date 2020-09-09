@@ -1,4 +1,4 @@
-# This is the main TF file that is deploying config based on a TF module.
+# This is my main TF file that is deploying config based on a TF module.
 
 terraform {
   required_providers {
