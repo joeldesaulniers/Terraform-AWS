@@ -6,13 +6,6 @@ terraform {
       source = "hashicorp/aws"
     }
   }
-  backend "remote" {
-    organization = "joelcorp"
-
-    workspaces {
-      name = "joel-workspace"
-    }
-  }
 }
 
 provider "aws" {
