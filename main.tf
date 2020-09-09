@@ -19,7 +19,7 @@ provider "aws" {
   profile = "default"
   region  = "ca-central-1"
 }
-/*
+
 module "notify_slack" {
   source  = "terraform-aws-modules/notify-slack/aws"
   version = "~> 4.0"
@@ -30,4 +30,3 @@ module "notify_slack" {
   slack_channel     = "aws-notification"
   slack_username    = "reporter"
 }
-*/
