@@ -1,5 +1,5 @@
 # This is my main tf file that is deploying config based on a TF module.
-
+/*
 terraform {
   required_providers {
     aws = {
@@ -23,3 +23,4 @@ module "notify_slack" {
   slack_channel     = "aws-notification"
   slack_username    = "reporter"
 }
+*/
