@@ -1,5 +1,5 @@
 # This is my main tf file that is deploying config based on a TF module.
-/*
+
 terraform {
   required_providers {
     aws = {
@@ -12,7 +12,7 @@ provider "aws" {
   profile = "default"
   region  = "ca-central-1"
 }
-
+/*
 module "notify_slack" {
   source  = "terraform-aws-modules/notify-slack/aws"
   version = "~> 4.0"
