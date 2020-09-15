@@ -18,7 +18,7 @@ resource "aws_iam_instance_profile" "ssm_profile" {
 }
 
 resource "aws_instance" "example" {
-  ami 			= "ami-0c94855ba95c71c99"
+  ami 			= "ami-020caff809d5a5307"
   instance_type = "t3.nano"
   iam_instance_profile = "${aws_iam_instance_profile.test_profile.name}"
 } 
